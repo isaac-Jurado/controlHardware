@@ -1,0 +1,13 @@
+body {
+  width: 100%;
+  position: relative;
+  height: 650px;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3c47e7a8, #ebe70ba2),
+    url(..raw/img/1.jpg); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3c47e7ab, #ebe70ba2),
+    url(../img/1.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
