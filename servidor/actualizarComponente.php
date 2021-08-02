@@ -56,7 +56,7 @@
         }else{
             echo '  vino vacio o es el mismo nombre';
         }
-        //header("location:../index.php");
+        header("location:../index.php");
     } else {
         echo "No se pudo actualizar :(";
     }
